@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Последние вакансии</title>
+    <link rel="stylesheet" href="{% static 'css/base.css' %}" />
+</head>
+<body>
+  <div class="nav">
+        <p class="nav_name">Странички</p>
+        <a class="margin" href="/index">Главная</a>
+        <a href="/page1">Востребованность</a>
+        <a href="/page2">География</a>
+        <a href="/page3">Навыки</a>
+        <a href="/page4">Последние вакансии</a>
+    </div>
+    <div class="main">
+        <header>
+            <img class="logo" src="{% static 'img/M.png' %}" >
+            <div class="block name">Менеджер в IT</div>
+        </header>
+        <footer>
+            <div class="fio">Сидоренко Максим Евгеньевич РИ-210930</div>
+        </footer>
+    </div>
+</body>
+</html>

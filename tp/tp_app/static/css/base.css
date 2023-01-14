@@ -1,0 +1,105 @@
+header{
+    width: auto;
+    height: 150px;
+    background-color: #167ffc;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+
+footer{
+    background-color: #167ffc;
+    width: auto;
+    height: 150px;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+
+th, td {
+   width: 50%;
+   border: 3px solid #167ffc;
+}
+
+table{
+    margin-left: 10%;
+    width: 40%;
+}
+
+h1{
+    text-align: center;
+}
+
+a{
+    margin-left: 60px;
+    margin-top: 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.block{
+    width: auto;
+    display: inline-block;
+}
+
+.name{
+    position: absolute;
+    text-align: center;
+    margin-top: 60px;
+    color: white;
+    font-size: 30px;
+}
+
+.logo{
+    display: inline-block;
+    margin-top: 25px;
+    margin-left: 40px;
+    width: 150px;
+    height: 100px;
+}
+
+.fio{
+    display: inline-block;
+    color: white;
+    font-size: 30px;
+    margin-top: 60px;
+    margin-left: 80px;
+    text-align: center;
+}
+
+.nav{
+    display: flex;
+    flex-direction: column;
+    background-color: #167ffc;
+    height: 98%;
+    position: fixed;
+    width: 300px;
+    border-radius: 20px;
+}
+
+.main{
+    display: inline-block;
+    margin-left: 320px;
+    width: 83%;
+}
+
+.margin{
+    margin-top: 40px;
+}
+
+.nav_name{
+    margin-left: 40px;
+    margin-top: 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 40px;
+}
+
+.graph{
+    width: 50%;
+}
+
+.item{
+    margin-top: 20px;
+    display: flex;
+    flex-decoration: row;
+}
