@@ -35,3 +35,17 @@ class key_skill(models.Model):
 
     def __str__(self):
         return str(self.position)
+
+class level_salary(models.Model):
+    city = models.CharField(max_length=50, blank=False)
+    salary = models.IntegerField(blank=False)
+
+    def __str__(self):
+        return str(self.city)
+
+class vacancies_city(models.Model):
+    city = models.CharField(max_length=50, blank=False)
+    vacancies = models.FloatField(blank=False)
+
+    def __str__(self):
+        return str(self.city)

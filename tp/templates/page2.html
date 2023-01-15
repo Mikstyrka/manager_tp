@@ -21,6 +21,36 @@
             <div class="block name">Менеджер в IT</div>
         </header>
         <h1>География</h1>
+        <div class="item">
+            <table>
+            <tr>
+                <td>Город</td>
+                <td>Зарплата</td>
+            </tr>
+            {% for i in level%}
+                <tr>
+                    <td>{{i.city}}</td>
+                    <td>{{i.salary}}</td>
+                </tr>
+            {%endfor%}
+            </table>
+            <img class="graph" src="{% static 'img/Figure_5.png' %}">
+        </div>
+        <div class="item">
+            <table>
+            <tr>
+                <td>Город</td>
+                <td>Доля вакансий</td>
+            </tr>
+            {% for i in vac%}
+                <tr>
+                    <td>{{i.city}}</td>
+                    <td>{{i.vacancies}}</td>
+                </tr>
+            {%endfor%}
+            </table>
+            <img class="graph" src="{% static 'img/Figure_6.png' %}">
+        </div>
         <footer>
             <div class="fio">Сидоренко Максим Евгеньевич РИ-210930</div>
         </footer>
