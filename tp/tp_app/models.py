@@ -29,7 +29,57 @@ class Years_vacanciesManager(models.Model):
     def __str__(self):
         return str(self.years)
 
-class key_skill(models.Model):
+
+class skill_2015(models.Model):
+    position = models.IntegerField(blank=False)
+    skill = models.CharField(max_length=50, blank=False)
+
+    def __str__(self):
+        return str(self.position)
+
+class skill_2016(models.Model):
+    position = models.IntegerField(blank=False)
+    skill = models.CharField(max_length=50, blank=False)
+
+    def __str__(self):
+        return str(self.position)
+
+class skill_2017(models.Model):
+    position = models.IntegerField(blank=False)
+    skill = models.CharField(max_length=50, blank=False)
+
+    def __str__(self):
+        return str(self.position)
+
+class skill_2018(models.Model):
+    position = models.IntegerField(blank=False)
+    skill = models.CharField(max_length=50, blank=False)
+
+    def __str__(self):
+        return str(self.position)
+
+class skill_2019(models.Model):
+    position = models.IntegerField(blank=False)
+    skill = models.CharField(max_length=50, blank=False)
+
+    def __str__(self):
+        return str(self.position)
+
+class skill_2020(models.Model):
+    position = models.IntegerField(blank=False)
+    skill = models.CharField(max_length=50, blank=False)
+
+    def __str__(self):
+        return str(self.position)
+
+class skill_2021(models.Model):
+    position = models.IntegerField(blank=False)
+    skill = models.CharField(max_length=50, blank=False)
+
+    def __str__(self):
+        return str(self.position)
+
+class skill_2022(models.Model):
     position = models.IntegerField(blank=False)
     skill = models.CharField(max_length=50, blank=False)
 

@@ -28,6 +28,16 @@ h1{
     text-align: center;
 }
 
+h2{
+    margin-left: 20px;
+    color: white;
+}
+
+.h2{
+    background-color: #167ffc;
+    border-radius: 5px;
+}
+
 a{
     margin-left: 60px;
     margin-top: 20px;
