@@ -1,22 +1,27 @@
 header{
     width: auto;
     height: 150px;
-    background-color: #167ffc;
+    background-color: #151515;
     border-radius: 20px;
     margin-bottom: 30px;
 }
 
 footer{
-    background-color: #167ffc;
+    background-color: #151515;
     width: auto;
     height: 150px;
     border-radius: 20px;
     margin-top: 30px;
 }
 
+body{
+    background-color: #131313;
+    color: #fdfdfd;
+}
+
 th, td {
    width: 50%;
-   border: 3px solid #167ffc;
+   border: 3px solid #151515;
 }
 
 table{
@@ -34,7 +39,7 @@ h2{
 }
 
 .h2{
-    background-color: #167ffc;
+    background-color: #151515;
     border-radius: 5px;
 }
 
@@ -79,7 +84,7 @@ a{
 .nav{
     display: flex;
     flex-direction: column;
-    background-color: #167ffc;
+    background-color: #151515;
     height: 98%;
     position: fixed;
     width: 300px;
@@ -112,4 +117,34 @@ a{
     margin-top: 20px;
     display: flex;
     flex-decoration: row;
+}
+
+.vacancies{
+    border-radius: 20px;
+    background-color: #151515;
+}
+
+.vac_name{
+    padding-top: 10px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.attr{
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+.attr_text{
+    padding-left: 40px;
+    width: 70%;
+    line-height: 35px;
+}
+
+.last{
+    padding-bottom: 30px;
+}
+
+.skill{
+    padding-left: 50px;
 }
